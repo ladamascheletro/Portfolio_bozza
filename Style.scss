@@ -1,0 +1,128 @@
+@import "./header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  padding: 0 20vh;
+  position: sticky;
+  top: 0;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    li {
+      margin: 20px;
+      font-family: "Heebo", sans-serif;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+
+
+.conteiner-cards h3,
+.conteiner-cards p {
+  color: black;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.conteiner-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10vh;
+}
+
+.card .title,
+.card .description {
+  padding: 10px;
+}
+
+.cit {
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  padding: 15vh 60vh;
+  text-align: center;
+}
+
+.cit .autor {
+  margin: 30px;
+  color: blueviolet;
+}
+
+.slider {
+  background-color: rgb(31, 7, 59);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  // transform: translateY(100%);
+
+  .hide {
+    background-color: rgb(31, 7, 59);
+    overflow: hidden;
+  }
+}
+
+.text {
+  padding-left: 40vh;
+  font-size: 5rem;
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  margin: 20vh 10vh;
+
+  .headerTitle {
+    font-size: 10rem;
+    text-align: right;
+  }
+
+  .myself-description {
+    text-align: right;
+  }
+}
+
+.slider2 {
+  background-color: rgb(200, 107, 196);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}

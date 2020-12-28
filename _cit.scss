@@ -1,0 +1,14 @@
+.sezione_cit {
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  text-align: center;
+}
+
+.cit .autor {
+  margin: 30px;
+  color: blueviolet;
+}

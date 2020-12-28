@@ -1,0 +1,28 @@
+.pall {
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border-radius: 50%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+header {
+    height: 100vh;
+    background: url(./img/universe2.png);
+    background-size: cover;
+
+    .headerTitle {
+        font-size: 10em;
+      }
+  }
+  
+  h2,
+  h1 {
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .logo h1 {
+    font-family: "Lobster", cursive;
+  }
